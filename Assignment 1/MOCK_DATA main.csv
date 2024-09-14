@@ -1,0 +1,76 @@
+title,voterID,firstName,middleName,lastName,gender,dateOfBirth,residentUnitNumber,residentStreetNumber,residentSuburb,residentPostCode,residentState ,postalUnitNumber,postalStreetNumber,postalStreetName ,postalSuburb,postalPostCode,postalState,daytimePhone ,mobile,emailAddress,divisionName,residentStreetName
+MR,1,Stephana,Candida,Niaves,Female,1963/03/11,4,PO Box 30472,Chadstone,34,TA,80,42,PO Box 41766,Chadstone,517,SA,5371386053,5824166228,cniaves0@vk.com,Adelaide,4704 Eastwood Place
+MR,2,Bartholomeo,Sidney,Arber,Male,1969/05/08,2,10th Floor,Chadstone,86,TA,54,6,Room 832,Chadstone,170,QLD,6759685626,1566027881,sarber1@fotki.com,Adelaide,21 Westerfield Court
+MISS,3,Jerome,Lazarus,Jeschner,Male,1979/07/26,8,Suite 79,Chadstone,81,VIC,68,10,Suite 12,Glen Waverley,355,NSW,1718738090,5067616252,ljeschner2@gov.uk,Adelaide,3999 Victoria Pass
+MISS,4,Zandra,Ami,Muspratt,Female,1967/11/09,6,Suite 16,Chadstone,56,NSW,93,39,PO Box 53657,Glen Waverley,523,WA,5204364278,4374266475,amuspratt3@un.org,Adelaide,0568 Holmberg Road
+MISS,5,Kalle,Brnaby,Duckers,Male,1975/12/10,1,Suite 48,Chadstone,90,QLD,97,53,PO Box 96516,Glen Waverley,463,WA,3994585305,6359997043,bduckers4@xrea.com,Adelaide,96551 Roxbury Center
+MISS,6,Selene,Shara,Dyshart,Female,1997/07/21,5,Room 932,Chadstone,52,NT,24,88,Room 177,Glen Waverley,859,WA,5975051436,8151513196,sdyshart5@arstechnica.com,Adelaide,681 Onsgard Crossing
+MISS,7,See,Alexandro,Lindsay,Male,1981/02/06,8,PO Box 27437,Chadstone,61,NT,73,44,PO Box 13203,Chadstone,141,NT,9103291056,1665972889,alindsay6@answers.com,Adelaide,7358 Annamark Place
+MR,8,Thorn,Norbie,Feander,Male,1965/08/27,7,Suite 9,Chadstone,65,NT,90,2,Room 1663,Glen Waverley,150,VIC,3092640440,4868500128,nfeander7@studiopress.com,Adelaide,75026 Kipling Plaza
+MR,9,Rudyard,Nappy,Hedylstone,Male,1997/06/25,12,10th Floor,Chadstone,43,QLD,86,88,Apt 1504,Chadstone,966,VIC,1481728010,2789331005,nhedylstone8@cisco.com,Adelaide,43067 Kings Court
+MISS,10,Tricia,Britt,Lupson,Female,1986/03/07,9,Room 189,Chadstone,91,NT,86,75,Room 1611,Glen Waverley,240,SA,5608575707,3208485707,blupson9@yellowbook.com,Adelaide,14 Vernon Junction
+MISS,11,Axel,Siffre,Preto,Male,1981/11/11,6,16th Floor,Chadstone,55,NT,99,18,Room 734,Chadstone,915,VIC,2744868524,1828377343,spretoa@jimdo.com,Adelaide,54 Kropf Alley
+MR,12,Eward,Thor,Havard,Male,1994/02/27,1,Room 1440,Chadstone,84,TA,99,30,PO Box 61835,Glen Waverley,654,VIC,5403731487,3525149559,thavardb@toplist.cz,Adelaide,36962 Lillian Park
+MISS,13,Nikos,Enoch,Criple,Male,2001/06/20,2,PO Box 37537,Chadstone,25,TA,93,63,Suite 36,Chadstone,534,VIC,6446747873,9784733088,ecriplec@cam.ac.uk,Adelaide,4094 Lighthouse Bay Trail
+MR,14,Hymie,Stanley,Du Hamel,Male,1964/07/07,2,12th Floor,Chadstone,46,NT,1,97,Apt 1446,Glen Waverley,574,QLD,2477524458,1262281358,sduhameld@upenn.edu,Adelaide,06774 Nova Court
+MISS,15,Inger,Hyacinth,Kleinsmuntz,Female,1964/05/20,11,Suite 61,Chadstone,38,ACT,88,71,Apt 1707,Glen Waverley,568,WA,1234465402,1135914288,hkleinsmuntze@tripod.com,Adelaide,68119 American Lane
+MISS,16,Madelena,Betteann,Bridewell,Female,1984/08/04,11,PO Box 97280,Chadstone,21,NSW,81,35,Suite 95,Chadstone,22,VIC,7014547325,9956821208,bbridewellf@istockphoto.com,Adelaide,2735 Mayer Center
+MR,17,Rancell,Valera,Tampling,Genderfluid,1981/02/01,5,Apt 35,Chadstone,2,NT,55,29,Suite 33,Glen Waverley,768,WA,9821698896,8309447819,vtamplingg@meetup.com,Adelaide,99 Lake View Drive
+MISS,18,Hedwig,Virgil,Gutowska,Non-binary,1961/08/23,10,Apt 796,Chadstone,15,NSW,3,87,PO Box 32923,Chadstone,186,WA,5261607485,9031397677,vgutowskah@bbc.co.uk,Adelaide,1779 Mayer Terrace
+MR,19,Creight,Ryley,Ackred,Male,1996/08/15,5,PO Box 51237,Chadstone,90,NT,53,43,Apt 1262,Chadstone,18,SA,6325564840,7004314066,rackredi@dot.gov,Adelaide,8956 Pankratz Avenue
+MR,20,Elka,Chandal,Chominski,Female,2002/02/05,3,Apt 1551,Chadstone,41,WA,39,20,Suite 89,Chadstone,57,NT,9457427290,8616177502,cchominskij@amazon.de,Adelaide,3 Anhalt Circle
+MISS,21,Joelle,Gui,Laraway,Female,1964/01/31,7,16th Floor,Chadstone,49,NT,62,23,PO Box 4692,Glen Waverley,818,SA,9979268487,9132050065,glarawayk@cyberchimps.com,Adelaide,1595 Dryden Way
+MISS,22,Avrom,Pierce,Clopton,Male,1999/10/28,8,Room 809,Chadstone,10,NT,26,1,Apt 935,Glen Waverley,580,NT,5738869280,3104326043,pcloptonl@oaic.gov.au,Adelaide,60 Jana Terrace
+MISS,23,Melodee,Cristy,Bowes,Female,1978/06/26,4,Suite 46,Chadstone,63,WA,54,9,PO Box 85995,Glen Waverley,219,NT,3523117812,1414200963,cbowesm@deliciousdays.com,Adelaide,5 Walton Hill
+MR,24,Elston,Demetri,McCoy,Agender,2003/02/26,5,8th Floor,Chadstone,86,NSW,53,25,17th Floor,Glen Waverley,445,NSW,5686943325,3432396300,dmccoyn@163.com,Adelaide,52980 6th Hill
+MR,25,Lemmie,Kippie,Storcke,Bigender,1962/02/23,12,9th Floor,Chadstone,32,ACT,61,87,PO Box 21684,Glen Waverley,343,ACT,2676344210,6885407046,kstorckeo@imageshack.us,Adelaide,290 Butterfield Park
+MISS,26,Brendan,Christoph,Livard,Male,1960/11/22,12,4th Floor,Chadstone,59,SA,20,4,Room 1412,Glen Waverley,477,SA,6881765014,6612521024,clivardp@berkeley.edu,Adelaide,1 Anderson Park
+MISS,27,Thaine,Stearn,Phil,Male,1991/08/18,7,15th Floor,Chadstone,29,QLD,13,78,8th Floor,Chadstone,217,WA,4469666513,3337895082,sphilq@homestead.com,Adelaide,5555 Sycamore Park
+MR,28,Ileane,Haslett,Derr,Genderfluid,1962/02/02,5,PO Box 34473,Chadstone,78,QLD,94,4,10th Floor,Glen Waverley,320,QLD,1815267917,4629382857,hderrr@spotify.com,Adelaide,7910 Lerdahl Alley
+MR,29,Hallsy,Blaine,Woollcott,Male,1969/03/10,3,14th Floor,Chadstone,69,TA,46,2,Apt 518,Chadstone,970,NT,4834822044,2359220875,bwoollcotts@arizona.edu,Adelaide,44 Amoth Way
+MISS,30,Poppy,Matelda,De Miranda,Female,1991/07/27,7,Suite 23,Chadstone,86,WA,5,36,Room 1929,Glen Waverley,405,SA,2409761631,9905732834,mdemirandat@mac.com,Adelaide,2 Mallard Drive
+MISS,31,Claire,Mariquilla,Gearing,Female,2005/09/17,7,14th Floor,Chadstone,3,VIC,53,93,Room 1958,Glen Waverley,956,QLD,5943493190,1664066770,mgearingu@redcross.org,Adelaide,5317 Coleman Court
+MISS,32,Jens,Matthias,Washington,Male,1985/06/08,6,Suite 10,Chadstone,16,SA,56,18,Suite 85,Chadstone,888,NSW,9744001322,6607619299,mwashingtonv@skype.com,Adelaide,2408 Holy Cross Trail
+MISS,33,Griselda,Ricki,Wanka,Female,1984/10/12,12,Room 884,Chadstone,42,VIC,28,67,5th Floor,Chadstone,587,NSW,9162909252,6632103371,rwankaw@marketwatch.com,Adelaide,07571 Independence Circle
+MR,34,Armin,Angie,Rate,Male,1974/09/11,2,Apt 951,Chadstone,79,NT,66,12,Room 817,Glen Waverley,412,NT,7885906381,9903480362,aratex@altervista.org,Adelaide,7823 Schlimgen Trail
+MISS,35,Adams,Corbie,Krzyzowski,Male,1976/05/26,6,Room 1604,Chadstone,46,TA,36,22,Apt 1314,Glen Waverley,790,ACT,6354272704,6052718128,ckrzyzowskiy@wunderground.com,Adelaide,875 School Park
+MR,36,Vi,Suellen,Guillain,Female,1993/11/03,5,8th Floor,Chadstone,45,SA,8,2,Suite 94,Chadstone,182,NT,3358322830,1395380228,sguillainz@google.com.br,Adelaide,5602 Rieder Point
+MISS,37,Gaspard,Waverley,Chantrell,Male,1977/02/21,4,Room 1105,Chadstone,89,NSW,18,62,PO Box 60232,Glen Waverley,124,TA,1155429251,2265538037,wchantrell10@paginegialle.it,Adelaide,7 Bobwhite Point
+MISS,38,Gerrard,Tyson,Siemens,Male,1977/04/18,7,5th Floor,Chadstone,77,NSW,92,4,Suite 9,Chadstone,402,NT,1529692958,9003130328,tsiemens11@pagesperso-orange.fr,Adelaide,44 Delladonna Lane
+MISS,39,Wells,Rutger,Thraves,Male,1981/10/13,12,PO Box 45433,Chadstone,33,NSW,37,93,Suite 39,Chadstone,441,SA,1851660333,8037470176,rthraves12@theatlantic.com,Adelaide,5 Westend Pass
+MR,40,Spike,Lesley,Vallery,Male,1980/08/16,6,Suite 88,Chadstone,54,NSW,38,58,Room 696,Glen Waverley,253,QLD,7402180316,2747903288,lvallery13@geocities.com,Adelaide,66 Sundown Point
+MR,41,Bat,Caryl,Cacacie,Male,1979/02/04,10,Room 820,Chadstone,71,NT,32,44,3rd Floor,Chadstone,64,QLD,2989856144,1913173704,ccacacie14@engadget.com,Adelaide,9292 Schlimgen Way
+MISS,42,Carroll,Lalo,Sturrock,Male,1972/04/08,2,Room 133,Chadstone,6,WA,88,44,PO Box 14366,Chadstone,753,QLD,3292180384,5807965889,lsturrock15@weebly.com,Adelaide,928 Stoughton Hill
+MR,43,Sela,Simonne,Booth,Female,1961/09/23,3,Suite 88,Chadstone,84,TA,55,92,Suite 98,Chadstone,181,NSW,1153876965,6866075450,sbooth16@pbs.org,Adelaide,75138 Corscot Hill
+MR,44,Buddy,Kippar,Anstis,Male,1977/03/30,2,PO Box 20739,Chadstone,52,VIC,77,40,PO Box 12624,Chadstone,123,ACT,1633122016,4185357857,kanstis17@salon.com,Adelaide,4 Schiller Road
+MR,45,Reinhard,Kermy,Inkin,Male,1965/10/12,12,Room 615,Chadstone,79,SA,56,72,PO Box 56250,Glen Waverley,277,TA,2173046469,7789728932,kinkin18@uol.com.br,Adelaide,3 South Alley
+MISS,46,Idalia,Leena,Pruvost,Female,1986/05/18,8,Apt 1405,Chadstone,35,TA,69,52,PO Box 25891,Chadstone,698,NSW,1072818438,1849039833,lpruvost19@utexas.edu,Adelaide,045 Hoffman Way
+MR,47,Madlin,Charline,Worman,Genderqueer,1981/05/07,1,7th Floor,Chadstone,43,NSW,25,58,6th Floor,Glen Waverley,198,ACT,3931917429,4627601390,cworman1a@prweb.com,Adelaide,723 Fulton Point
+MR,48,Yule,Ulrick,Soall,Male,1961/12/09,6,Suite 89,Chadstone,59,ACT,6,42,Room 1789,Chadstone,21,NSW,2318725287,8001183792,usoall1b@printfriendly.com,Adelaide,1804 Hoffman Alley
+MISS,49,Jeremiah,Andris,Ouver,Male,1971/05/03,6,Suite 70,Chadstone,33,ACT,27,64,Room 1442,Chadstone,65,QLD,4156987219,1832628369,aouver1c@nytimes.com,Adelaide,681 Anzinger Court
+MR,50,Brandtr,Rollo,Newhouse,Male,1983/11/01,6,Room 1740,Chadstone,40,TA,69,84,15th Floor,Chadstone,321,VIC,9113130391,8244090691,rnewhouse1d@soup.io,Adelaide,2 Maple Circle
+MR,51,Cally,Kimberly,O'Dea,Female,1977/12/25,11,PO Box 22161,Chadstone,38,NT,34,26,Suite 82,Chadstone,677,NSW,3351699218,4712137265,kodea1e@fc2.com,Adelaide,087 Clemons Court
+MR,52,Den,Gary,Dominique,Male,1964/02/17,4,Suite 12,Chadstone,24,VIC,23,47,Apt 1396,Chadstone,288,NSW,3613858652,5206666046,gdominique1f@loc.gov,Adelaide,0945 Jenna Junction
+MR,53,Corny,Donal,Gipp,Male,1968/03/06,9,9th Floor,Chadstone,1,ACT,43,45,Suite 66,Chadstone,655,NSW,1569375923,9171610044,dgipp1g@weather.com,Adelaide,8246 Washington Crossing
+MR,54,Kendal,Allin,Caine,Male,2003/12/10,5,2nd Floor,Chadstone,13,SA,9,64,Apt 1839,Glen Waverley,721,SA,9877923246,9078358018,acaine1h@army.mil,Adelaide,1447 Lyons Trail
+MR,55,Lesly,Nolana,Siehard,Female,1979/08/06,8,PO Box 6668,Chadstone,30,TA,8,40,Suite 65,Glen Waverley,859,VIC,9985873955,2249403369,nsiehard1i@spotify.com,Adelaide,09929 Burning Wood Park
+MISS,56,Jean,Johannah,Egell,Female,1964/11/09,5,Apt 1866,Chadstone,69,QLD,93,88,Apt 1707,Chadstone,676,ACT,5442304694,4992833787,jegell1j@photobucket.com,Adelaide,6308 Bartillon Hill
+MISS,57,Madeleine,Rosa,Baynom,Female,1980/01/19,12,Apt 405,Chadstone,63,QLD,10,53,PO Box 79728,Glen Waverley,399,WA,1974259011,4183416300,rbaynom1k@tinyurl.com,Adelaide,5 Steensland Road
+MR,58,Gustav,Nikolos,Icke,Male,1980/08/12,5,3rd Floor,Chadstone,92,ACT,12,15,11th Floor,Glen Waverley,17,VIC,7023933828,5569178208,nicke1l@blinklist.com,Adelaide,57 Schlimgen Park
+MISS,59,Taber,Ruy,MacCartair,Male,1974/03/11,9,Apt 548,Chadstone,90,SA,23,37,Room 7,Glen Waverley,169,NT,8196659022,1055516316,rmaccartair1m@theguardian.com,Adelaide,4 4th Hill
+MR,60,Elmo,Dare,Wye,Male,1986/07/21,8,Suite 34,Chadstone,82,NT,81,80,Apt 1000,Chadstone,809,WA,9308471753,8134329494,dwye1n@networkadvertising.org,Adelaide,2 Mcguire Hill
+MR,61,Waldon,Dag,Moneypenny,Male,1971/12/30,7,7th Floor,Chadstone,54,VIC,13,96,Suite 50,Chadstone,888,QLD,7172034267,8054898938,dmoneypenny1o@nature.com,Adelaide,45 Mcbride Trail
+MISS,62,Nissy,Hyacinthe,Madill,Polygender,1991/12/30,8,4th Floor,Chadstone,78,SA,48,13,Suite 10,Glen Waverley,407,NSW,6983310403,3136241332,hmadill1p@webnode.com,Adelaide,0 Marquette Circle
+MR,63,Ned,Tomlin,Arundale,Male,1982/01/22,1,PO Box 81619,Chadstone,40,QLD,20,31,Suite 20,Chadstone,246,NSW,6861672065,1082883892,tarundale1q@wsj.com,Adelaide,221 Marquette Drive
+MISS,64,Lilas,Zorana,Rzehorz,Female,1964/05/18,3,3rd Floor,Chadstone,89,NSW,65,91,18th Floor,Chadstone,67,SA,3127243715,1853275989,zrzehorz1r@dropbox.com,Adelaide,54430 Shoshone Avenue
+MISS,65,Frannie,Janaye,Batchelder,Female,1993/05/28,4,Suite 73,Chadstone,79,SA,60,27,Suite 73,Glen Waverley,616,ACT,1877040867,2292227145,jbatchelder1s@istockphoto.com,Adelaide,93 Arapahoe Trail
+MR,66,Demott,Sandor,Kildahl,Male,1992/01/06,9,Suite 52,Chadstone,60,VIC,26,25,PO Box 83524,Glen Waverley,849,WA,1154335746,7606131237,skildahl1t@icq.com,Adelaide,3 Parkside Lane
+MR,67,Ilysa,Delilah,Libero,Female,1993/03/06,10,9th Floor,Chadstone,53,VIC,97,22,Apt 1800,Glen Waverley,820,ACT,5036313751,1056177542,dlibero1u@sphinn.com,Adelaide,25005 Aberg Avenue
+MR,68,Ellswerth,Miles,Luparto,Male,1978/10/21,11,Apt 64,Chadstone,72,NT,14,3,Apt 1107,Glen Waverley,71,WA,5733871525,8256206259,mluparto1v@wunderground.com,Adelaide,1 Del Mar Place
+MR,69,Herve,Otto,Neylan,Male,1998/05/24,9,Suite 41,Chadstone,61,TA,54,62,Apt 1469,Glen Waverley,465,ACT,2169629062,3923905020,oneylan1w@paginegialle.it,Adelaide,740 Delaware Parkway
+MR,70,Jessie,Chadd,Iddons,Male,1961/12/27,4,6th Floor,Chadstone,70,VIC,38,24,Room 1773,Glen Waverley,94,NSW,3329204437,4013155094,ciddons1x@smugmug.com,Adelaide,27 Canary Pass
+MR,71,Brewer,Clementius,Kettow,Male,2001/07/07,7,Suite 31,Chadstone,22,NSW,97,89,Room 608,Chadstone,852,ACT,2045525991,6974242513,ckettow1y@europa.eu,Adelaide,27122 Lien Way
+MR,72,Ado,Glendon,Orbell,Male,1996/08/08,1,Suite 83,Chadstone,75,SA,79,5,PO Box 16824,Glen Waverley,922,WA,4307701167,6253607064,gorbell1z@sbwire.com,Adelaide,5 Fieldstone Park
+MISS,73,Sibley,Rebekkah,Theobold,Female,1976/08/15,9,Room 1028,Chadstone,9,TA,34,27,Apt 347,Glen Waverley,245,ACT,6932554152,9049026493,rtheobold20@ning.com,Adelaide,5597 Fordem Plaza
+MISS,74,Bellina,Clio,Barraclough,Genderqueer,1988/04/03,5,Apt 1343,Chadstone,48,QLD,47,11,15th Floor,Glen Waverley,965,QLD,9314793330,9938156875,cbarraclough21@bloomberg.com,Adelaide,98099 Briar Crest Avenue
+MISS,75,Rosalind,Joelle,Michelin,Female,1989/04/25,11,16th Floor,Chadstone,49,VIC,30,55,5th Floor,Chadstone,723,VIC,5811881764,5162822334,jmichelin22@apple.com,Adelaide,1225 Scott Way

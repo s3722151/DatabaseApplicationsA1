@@ -1,7 +1,7 @@
 -- Step 1: To delete tables with constraints, create a temporary tables without the foreign key constraint
 CREATE TABLE politicalPartyTEMP (
-    partyCode VARCHAR(20) PRIMARY KEY, 
-    partyName VARCHAR(50), 
+    partyCode VARCHAR(60) PRIMARY KEY, 
+    partyName VARCHAR(100), 
     partyLogo Text,     
     postalAddress VARCHAR(50), 
     partySecretary VARCHAR(50),
@@ -33,12 +33,12 @@ CREATE TABLE electoralDivisionHistoryTEMP (
 );
 CREATE TABLE candidateListTEMP (
     candidateID VARCHAR(20), 
-    candidateName VARCHAR (50), 
-    contactAddress VARCHAR (50), 
+    candidateName VARCHAR (100), 
+    contactAddress VARCHAR (100), 
     contactPhone INTEGER, 
     contactMobile INTEGER, 
-    contactEmail VARCHAR(20),
-    partyCode VARCHAR(20),
+    contactEmail VARCHAR(60),
+    partyCode VARCHAR(60),
     PRIMARY KEY (candidateID)        
 );
 CREATE TABLE voterRegistryTEMP (  
@@ -52,18 +52,18 @@ CREATE TABLE voterRegistryTEMP (
     residentUnitNumber VARCHAR(20),
     residentStreetNumber INTEGER,
     residentStreetName VARCHAR(60),
-    residentsuburb VARCHAR(30),
-    residentPostcode INTEGER,
+    residentSuburb VARCHAR(30),
+    residentPostCode INTEGER,
     residentState VARCHAR(30),
     postalUnitNumber INTEGER,
     postalStreetNumber INTEGER,
     postalStreetName VARCHAR(60),
     postalSuburb VARCHAR(60),
-    postalPostcode INTEGER,
+    postalPostCode INTEGER,
     postalState VARCHAR(60),
     daytimePhone INTEGER,
     mobile VARCHAR(20),
-    emailAddress VARCHAR(40),
+    emailAddress VARCHAR(70),
     divisionName VARCHAR(50),
     PRIMARY KEY (voterID)
 );
@@ -110,7 +110,7 @@ CREATE TABLE prefCountRecordTEMP (
     roundNo INTEGER, 
     eliminatedCandidateID VARCHAR (20), 
     countStatus VARCHAR, --Done, In-progress, complete
-    preferenceAggregate INTEGER,
+    preferenceAggregate INTEGER, -- At end of each round, total votes(1) counted & redistributed(last place cand.vote)
     PRIMARY KEY (electionEventID, roundNo)
 );
 CREATE TABLE preferenceTallyPerRoundPerCandidateTEMP (
@@ -164,7 +164,7 @@ DROP TABLE IF EXISTS TESTissuanceRecord;
 DROP TABLE IF EXISTS TESTelectionEvent;
 Drop TABLE IF EXISTS TESTelectoralDivisionHistory;
 DROP TABLE IF EXISTS TESTcandidateList;
-DROP TABLE IF EXISTS TESTvoterRegistry;
+DROP TABLE IF EXISTS dbo.TESTvoterRegistry;
 DROP TABLE IF EXISTS TESTpoliticalParty;
 DROP TABLE IF EXISTS TESTelectoralDivision;
 DROP TABLE IF EXISTS TESTelectionMaster;
@@ -177,7 +177,7 @@ DROP TABLE IF EXISTS TESTelectionMaster;
     A:The date of when the election will be. Usually released in advance. Then a voter must register their details.
 */
 CREATE TABLE TESTelectionMaster (
-    electionSerialNo INTEGER PRIMARY KEY, 
+    electionSerialNo INTEGER PRIMARY KEY,  --Same as election event id: 20220521
     electionDate date, 
     electionType VARCHAR(50), 
     totalNumDivisions INTEGER, 
@@ -208,26 +208,26 @@ CREATE TABLE TESTelectoralDivisionHistory (
 CREATE TABLE TESTelectionEvent (
     electionEventID VARCHAR, 
     totalVoters INTEGER, 
-    votesCast INTEGER, 
-    votesReject INTEGER, 
+    votesCast INTEGER,  --total number of Ballot Papers issues (votesValid + votesReject)
+    votesReject INTEGER,  -- Invalid votes (empty, not marked correctly)
     votesValid INTEGER,
     electionSerialNo INTEGER,
     divisionName VARCHAR(50), 
     prefWinnerCandidateID VARCHAR(20), 
-    winnerTally Integer, 
+    winnerTally Integer,  -- final tally of last 2 candidates. This contributes to votesValid.
     prefLoserCandidateID VARCHAR(20),
-    loserTally INTEGER,
+    loserTally INTEGER,  -- final tally of last 2 candidates. This contributes to votesValid.
     PRIMARY KEY (electionEventID)    
 );
 
 CREATE TABLE TESTcandidateList (
     candidateID VARCHAR(20), 
-    candidateName VARCHAR (50), 
-    contactAddress VARCHAR (50), 
+    candidateName VARCHAR (100), 
+    contactAddress VARCHAR (100), 
     contactPhone INTEGER, 
     contactMobile INTEGER, 
-    contactEmail VARCHAR(20),
-    partyCode VARCHAR(20),
+    contactEmail VARCHAR(60),
+    partyCode VARCHAR(60),
     PRIMARY KEY (candidateID)    
 );
 CREATE TABLE TESTcontests (
@@ -237,8 +237,8 @@ CREATE TABLE TESTcontests (
 );
 
 CREATE TABLE TESTpoliticalParty (
-    partyCode VARCHAR(20) PRIMARY KEY, 
-    partyName VARCHAR(50), 
+    partyCode VARCHAR(60) PRIMARY KEY, 
+    partyName VARCHAR(100), 
     partyLogo TEXT,     
     postalAddress VARCHAR(50), 
     partySecretary VARCHAR(50),
@@ -258,18 +258,18 @@ CREATE TABLE TESTvoterRegistry (
     residentUnitNumber VARCHAR(20),
     residentStreetNumber INTEGER,
     residentStreetName VARCHAR(60),
-    residentsuburb VARCHAR(30),
-    residentPostcode INTEGER,
+    residentSuburb VARCHAR(30),
+    residentPostCode INTEGER,
     residentState VARCHAR(30),
     postalUnitNumber INTEGER,
     postalStreetNumber INTEGER,
     postalStreetName VARCHAR(60),
     postalSuburb VARCHAR(60),
-    postalPostcode INTEGER,
+    postalPostCode INTEGER,
     postalState VARCHAR(60),
     daytimePhone INTEGER,
     mobile VARCHAR(20),
-    emailAddress VARCHAR(40),
+    emailAddress VARCHAR(70),
     divisionName VARCHAR(50),
     PRIMARY KEY (voterID)
 );
@@ -290,8 +290,8 @@ CREATE TABLE TESTballotPreferences (
 CREATE TABLE TESTissuanceRecord (
     voterID INTEGER, 
     electionEventID VARCHAR, 
-    issueDate DATE, 
-    ballotIssue Timestamp, 
+    issueDate DATE,  -- Record when voters vote. Voters can vote in before election date (pre-poll)
+    ballotIssue Timestamp, --Got practice to have time and date but seperate them
     pollingStation VARCHAR(50),
     PRIMARY KEY (voterID, electionEventID) 
 );
@@ -300,14 +300,14 @@ CREATE TABLE TESTprefCountRecord (
     roundNo INTEGER, 
     eliminatedCandidateID VARCHAR (20), 
     countStatus VARCHAR, --Done, In-progress, complete
-    preferenceAggregate INTEGER,
+    preferenceAggregate INTEGER, -- This is the number that is carried over to next candidate
     PRIMARY KEY (electionEventID, roundNo)
 );
 CREATE TABLE TESTpreferenceTallyPerRoundPerCandidate (
     electionEventID VARCHAR, 
     roundNo integer, 
     candidateID VARCHAR(20),
-    preferenceTally INTEGER,
+    preferenceTally INTEGER, -- Tally in a round.
     PRIMARY KEY (electionEventID, roundNo, candidateID)   
 );
 
